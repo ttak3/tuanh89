@@ -1,0 +1,25 @@
+<app-header></app-header>
+<div class="women">
+    <img src="https://file.hstatic.net/200000174405/collection/1920x450_-_giaynam_6456e2e4ac894ba2a55ead7c86e294fe.jpg"
+        alt="">
+</div>
+<div class="wm">
+    <h3>GIÀY NIKE NAM</h3>
+
+    <div class="main_content container-fluid">
+        <div class="row justify-content-between">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 py-2" *ngFor="let item of list">
+                        <div class="card curr" routerLink="/detail/{{item.id}}">
+                            <img class="card-img-top" src="{{item.img}}" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">{{item.name}}</h4>
+                                <p class="card-text">{{item.price}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

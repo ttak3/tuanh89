@@ -1,0 +1,19 @@
+.women img{
+    width: 100%;
+}
+.wm{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.curr{
+    cursor: pointer !important;
+    height: 510px !important;
+}
+.card-img-top{
+    border: 0.5px solid rgb(234, 229, 229);
+}
+.card-text{
+    color: crimson;
+    font-size: 25px;
+}

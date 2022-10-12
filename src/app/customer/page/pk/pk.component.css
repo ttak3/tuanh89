@@ -1,0 +1,27 @@
+.pk1{
+    border: 1px solid black;
+    width: 350px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.pk1 img{
+    width: 320px;
+    height: 320px;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+.pk h3{
+    color: indianred;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.pk1 h4{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.pkien{
+    display: flex;
+}

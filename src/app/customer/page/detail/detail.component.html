@@ -1,0 +1,128 @@
+<app-header></app-header>
+
+<main class="p-4">
+    <div class="container-fluid">
+        <div class=" sp text-center text-uppercase h3">
+            <a href="" routerLink="/products">SẢN PHẨM/</a>
+            <p><span class="font-weight-bold">Chi tiết sản phẩm</span></p>
+        </div>
+
+        <div class="detailss container-fluid p-5">
+            <div class="row justify-content-between">
+                <div class="sidebarr col-lg-1 p-0">
+                    <div class="img-side" *ngFor="let item of product.detailImg">
+                        <img src={{item.img}} alt="" class="card-img">
+                    </div>
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="img-details">
+                        <img src={{product.img}} alt="" class="card-img">
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <p class="h4">
+                        {{product.name}}
+                    </p>
+                    <div class="d">
+                        <!-- <div class="status">
+                            <p class="text-success">
+                                Còn hàng
+                            </p>
+                        </div> -->
+                        <div class="sku">
+                            <p>Mã sản phẩm: {{product.sku}}</p>
+                        </div>
+                    </div>
+
+                    <p class=" price text-pink">
+                        {{product.price}}
+                    </p>
+
+                    <div class="container">
+                        <div class="row align-items-center  justify-content-between">
+                            <div class="col-lg-1" *ngFor="let item of product.size">
+                                <button type="button" class="btn-size">
+                                    {{item.id}}
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s"></div>
+                    <div class="size">
+                        <p>Bảng hướng dẫn kích cỡ :</p>
+                        <a href="" routerLink="/size">Xem</a>
+                    </div>
+                    <div class="s"></div>
+
+                    <div class="container font-weight-bold addtocarrt mt-3">
+                        <div class="d-flex justify-content-between">
+                            <button class="btn-size btn-block" (click)="addToCart(product)" routerLink="/cart">Thêm vào giỏ hàng</button>
+                            <!-- <button class="btn-size">
+                                +
+                            </button> -->
+                        </div>
+                    </div>
+
+                    <div class="container addtocarrt mt-3">
+                        <button class="btn-block btn-size font-weight-bold">
+                            Tư vấn :(84)339445975
+                        </button>
+                    </div>
+
+                    <div class="container addtocarrt mt-3">
+                        <button class="btn-block btn-size font-weight-bold">
+                            Miễn phí vận chuyển
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="thongtin">
+                <div class="thongtin1">
+                    <h4>Thông tin thương hiệu nike</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima sequi, saepe molestiae earum
+                        suscipit consectetur facilis quo quidem omnis voluptatum qui odio. Placeat incidunt voluptatibus
+                        sunt vero similique, vel veniam!</p>
+                </div>
+                <div class="thongtin2">
+                    <h4>Đặc điểm nổi bật</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et voluptatum quasi recusandae
+                        consectetur.
+                        Saepe voluptas eum ipsam reiciendis obcaecati consequatur alias assumenda commodi? Unde officia
+                        atque, commodi adipisci vel molestiae.</p>
+
+                </div>
+            </div> -->
+            <!-- <div class="tt"></div> -->
+            <div class="ttt">
+               
+                <div class="t1">
+                    <h4>Thông tin sản phẩm</h4><br>
+                    
+                    <p>- Flyleather ra đời với mục tiêu giúp<em>&nbsp;thương hiệu giày Nike</em>&nbsp;cạnh tranh trong cuộc chơi khốc liệt của các hãng thời trang thể thao. Siêu vật liệu Flyleather được giới thiệu là chất liệu nhẹ hơn da thường tới 40%, bền gấp 5 lần và có thể giảm thiểu 80% lượng carbon thải ra môi trường trong quá trình sản xuất giày nike.</p>
+                    <p>- Trước đây, vào tháng 2/2012 Nike đã giới thiệu công nghệ Flyknit phục vụ cho các sản phẩm&nbsp;<em>giày nike flyknit racer chính hãng</em>. Hai sản phẩm đầu tiên được áp dụng công nghệ Flyknit là phiên bản Nike Flyknit Trainer+ và&nbsp;giày Nike Flyknit Racer chính hãng.&nbsp;Các đôi sneaker này được mở bán trên thị trường vào tháng 7/2012.</p>
+                    <p>- Flyknit là vật liệu giúp giày Nike có thể cạnh tranh với các đối thủ lớn của ngành thời trang thể thao. Đặc biệt là ông trùm Adidas.</p>
+                </div>
+                <img src="https://nikechinhhang.net/wp-content/uploads/2021/04/nike-flyleather-3.jpg" alt="">
+                <!-- <div class="t2">
+                    <h4>Hỏi Đáp Về Giày Chạy Bộ Nam Nike Zoom Pegasus 38 CW7358-601</h4>
+                    <div class="hoi">
+                        <p class="hoi1">Mời bạn bình luận hoặc đặt câu hỏi</p>
+                        <div class="hoi3">
+                            <input type="radio">Nam.
+                            <input type="radio">Nữ.
+                        </div>
+                        <div class="hoi2">
+                            <p>Họ và tên</p>
+                            <p>Số điện thoại</p>
+                            <p>Email</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</main>
+<app-footer></app-footer>
+
+

@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-side {
+    width: 120%;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+.img-details {
+    border: 2px solid black;
+}
+
+.text-pink {
+    color: #DB8686;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.sub-image {
+    background-color: rgb(246, 246, 246);
+    border: 2px solid black;
+}
+
+.btn-size {
+    border: none !important;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.btn-size:hover {
+    border: 1px solid white;
+    background-color: black !important;
+    color: white !important;
+}
+
+.addtocarrt .btn-size {
+    border-radius: 10px;
+}
+
+.thongtin {
+    display: flex;
+    margin-top: 20px;
+}
+
+.thongtin1 {
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.thongtin2 {
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.tt {
+    width: 500px;
+    height: 2px;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.ttt {
+    display: flex;
+    margin-top: 50px;
+}
+.t1{
+    font-size: 15px;
+
+}
+
+.hoi2 {
+    border: 1px solid black;
+}
+
+.hoi2 p {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.hoi1 {
+    border-radius: 15px;
+    background-color: antiquewhite;
+    text-align: center;
+
+}
+
+.hoi3 {
+    margin-left: 80px;
+}
+
+.d{
+   margin-top: 10px;
+   display: flex;
+}
+.sku{
+    margin-top: 10px;
+}
+.price{
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.container{
+    margin-top: 10px;
+}
+.size{
+    display: flex;
+    margin-top: 10px;
+}
+.size a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+.s{
+    border: 0.5px solid rgb(136, 132, 132);
+    margin-top: 10px;
+}
+.sp{
+    display: flex;
+    margin-left: 400px;
+}
+.sp a{
+    text-decoration: none;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

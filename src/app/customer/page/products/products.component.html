@@ -1,0 +1,40 @@
+
+<app-header></app-header>
+<h3 class="all">TẤT CẢ SẢN PHẨM</h3>
+<div class="namnu">
+    <div class="nam d-flex align-items-center justify-content-center">
+        <a href=""routerLink="/nam">NAM</a>
+
+    </div>
+    <div class="nu d-flex align-items-center justify-content-center" >
+        <a href=""routerLink="/nu">NỮ</a>
+
+    </div>
+    <div class="phu d-flex align-items-center justify-content-center" >
+        <a href="" routerLink="/pk">PHỤ KIỆN</a>
+
+    </div>
+</div>
+<div class="con">
+    <div class="container-fluid px-5">
+        <div class="row">
+            <div class="col-lg-3" *ngFor="let item of list">
+                <div class="card curr mt-5" routerLink="/detail/{{item.id}}">
+                    <img class="card-img-top" src={{item.img}} alt="">
+                    <h5 class="nike">NIKE</h5>
+                    <div class="card-body p">
+                        <p class="card-title title">{{item.sku}}</p>
+                        <h4 class="card-title title">{{item.name}}</h4>
+                        <p class="card-text co">
+                            {{item.price}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<app-footer></app-footer>

@@ -1,0 +1,157 @@
+.content {
+    height: 300px;
+    width: 100%;
+    background-image: url(https://style-republik.com/wp-content/uploads/2021/06/1000x-1.jpeg);
+    background-size: cover
+}
+
+.text {
+    color: #fff;
+    position: absolute;
+    right: 100px;
+    top: 300px;
+   
+}
+
+.about {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.about p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.a {
+    display: flex;
+    margin: 20px;
+    padding-left: 20px;
+    border: 2px solid black;
+}
+
+.a1 img {
+    width: 120%;
+    height: 120px;
+    margin: 20px;
+    margin-left:40px;
+}
+.a4 img {
+    width: 110%;
+    height: 120px;
+    margin: 20px;
+    margin-left:100px;
+}
+
+.a3 img {
+    width: 65%;
+    height: 120px;
+    margin: 20px;
+    margin-left:170px;
+}
+.text1 {
+    text-align: center;
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+.a2 img {
+    width: 95%;
+    height: 90px;
+    margin: 20px;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.ab {
+    margin-left: 1200px;
+    color: crimson;
+}
+
+.ab1 {
+    margin-left: 100px;
+    color: crimson;
+    margin-top: 20px;
+}
+
+.about2 {
+    margin: 10px;
+}
+.about2 p {
+    margin-left: 20px;
+    font-size: 20px;
+}
+.member{
+    display: flex;
+    margin-left: 470px;
+    /* padding-left: 30px; */
+}
+.mm1{
+    margin-left: 150px;
+    margin-top: 10px;
+    
+}
+.mm2{
+    margin-left: 150px;
+}
+
+.m1 img{
+
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    /* margin-left: 20px; */
+}
+.m2 img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+}
+.m3 img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+}
+.t1{
+    text-align: center;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.t2{
+    text-align: center;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.m2{
+    text-align: center;
+    
+}
+
+.m5 img{
+    border-radius: 50%;
+    width: 210px;
+    height: 210px;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+.member2{
+    display: flex;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+.about4{
+    margin-top: 30px;
+}
+.ab3{
+    color: rgb(237, 50, 50);
+    margin-left: 1000px;
+    margin-top: 20px;
+}
+.m3m{
+    margin-left: 500px;
+}
+.mm{
+    margin-left: 170px;
+}
+
